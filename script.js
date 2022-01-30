@@ -95,16 +95,14 @@ const validateInput = (input_encriptar) => {
   });
   
 
-
   const showErrorMessage = (input_encriptar) => {
-    // Show error message
+    // Mostrar mensaje del error
     error_message.style.display = "block";
     error_message.innerHTML = input_encriptar;
   };
   
 
   const hideErrorMessage = () => {
-    // Hide error message
     error_message.style.display = "none";
   };
   
