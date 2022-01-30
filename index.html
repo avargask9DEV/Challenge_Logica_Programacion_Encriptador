@@ -1,0 +1,74 @@
+
+<!--Challenge-Logica Programación Desarrollada por Alosno Vargas -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Oracle ONE </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>  
+<header class="header">
+    <h1 class="header-title">Challenge Oracle ONE
+      Principiante en programación</h1>
+
+    <p class="header-description">
+        Task developed by <span>Alonso Vargas</span>  | Encriptador de texto con Javascript
+    </p>
+
+</header>
+
+    <section class="figures"> 
+      <h2 class="title-box">Código Secreto</h2>
+        <div class="box">
+            <div class="box-header">
+                 
+                <h2>Mensaje </h2>
+            </div>
+            <div class="box-main">
+                <p class="box-main__text">Ingresar un mensaje a Encriptar que sea sólo letras minúsculas sin Acento</p>
+                    <br>
+                    <br>
+                    <hr>
+                <input 
+                class="box-main__input" 
+                type="text" 
+                id="input-encriptar"
+                autofocus
+                placeholder="Ingrese texto aquí">
+
+                <button  class="box-main__btn" id="encriptar-btn" type="button" name="encriptar-btn" > Encriptar!</button>
+
+                <button  class="box-main__btn" id="desencriptar-btn" type="button" name="desencriptar-btn" > Desencriptar!</button>
+               
+                                    <br>
+            </div>
+        </div>
+       
+
+        <div class="box">
+            <div class="box-header">
+                <h2>Mensaje Encriptado</h2>
+            </div>
+            <div class="box-main">
+                <p class="box-main__text">Aquí se observará el texto encriptado </p>
+                    <br>
+                    <br>
+                    <br>
+                   
+                    <hr>
+
+                    <input class="box-main__input"  type="text" id="answer" name="answer" placeholder="Ver resultado aquí">
+                <button  class="box-main__btn" id="copyBtn" type="button">  Copiar</button>
+
+            </div>
+        </div>
+    </section>
+    <p id="error_message"> </p>
+</body>
+
+<script src="script.js"></script>
+
+</html>
